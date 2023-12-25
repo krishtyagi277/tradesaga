@@ -156,7 +156,7 @@
   </head>
   <body class="home page-template-default page page-id-10">
     
-    <div class="tm-page">
+    <div class="tm-page ">
       <header class="tm-header-mobile uk-hidden@l" uk-header>
         <div class="uk-navbar-container">
           <div class="uk-container uk-container-expand">
@@ -276,7 +276,7 @@
           sel-target=".uk-navbar-container"
         >
           <div class="uk-navbar-container">
-            <div class="uk-container uk-container-large">
+            <div class="uk-container uk-container-large uk-section-primary">
               <nav
                 class="uk-navbar"
                 uk-navbar='{"align":"left","container":".tm-header &gt; [uk-sticky]","boundary":".tm-header .uk-navbar-container","target-y":".tm-header .uk-navbar-container","dropbar":true,"dropbar-anchor":".tm-header .uk-navbar-container","dropbar-transparent-mode":"remove"}'
@@ -354,7 +354,7 @@
                       <a
                         href="javascript:void(0)"
                         class="uk-button uk-button-secondary"
-                        >Login/Signup</a
+                        >Contact Us</a
                       >
                     </div>
                   </div>
@@ -391,12 +391,15 @@
           }
         </style>
         <div
-          class="uk-section-default uk-flex uk-flex-middle"
+          class="uk-section-primary uk-flex uk-flex-middle wrapper"
           uk-scrollspy="target: [uk-scrollspy-class]; cls: uk-animation-slide-bottom-small; delay: 150;"
           uk-height-viewport="offset-top: true;"
         >
-          <div class="uk-width-1-1">
-            <div class="uk-container uk-container-expand-right">
+        <video playsinline="" autoplay="" muted="muted" loop="" poster="https://cf-images.us-east-1.prod.boltdns.net/v1/jit/3755095886001/572a79ca-bee0-4296-8a8b-67db78763257/main/640x360/6s/match/image.jpg" class="chrome">
+          <source src="./wp-content/uploads/introduction.mp4" type="video/mp4" class="chrome">
+          </video>
+          <div class="uk-width-1-2" style="position: absolute;">
+            <div class="uk-container ">
               <div
                 class="uk-grid tm-grid-expand uk-grid-column-medium uk-grid-margin"
                 uk-grid
@@ -405,6 +408,7 @@
                   class="uk-grid-item-match uk-flex-middle uk-width-1-2@m uk-width-2-5@xl"
                 >
                   <div class="uk-panel uk-width-1-1">
+
                     <h1
                       class="uk-h5  uk-width-xlarge@m"
                       uk-scrollspy-class
@@ -465,8 +469,8 @@
                       }
                     </script>
                     <h4 class="uk-margin" uk-scrollspy-class>
-                      <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatum, ea expedita autem quae adipisci voluptate quidem inventore perspiciatis molestias. Vero nostrum perferendis perspiciatis dolorem tempora repudiandae doloremque deserunt quisquam!
+                      <p class="uk-section-description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                       </p>
                     </h4>
                     <div class="uk-margin" uk-scrollspy-class>
@@ -488,32 +492,12 @@
                     </div>
                   </div>
                 </div>
-                <div
-                  class="uk-grid-item-match uk-flex-middle uk-width-1-2@m uk-width-3-5@xl"
-                >
-                  <div class="uk-panel uk-width-1-1">
-                    <div
-                      class="uk-position-relative uk-margin uk-text-left@m uk-text-center"
-                      uk-scrollspy-class="uk-animation-slide-right-small"
-                    >
-                      <img
-                        fetchpriority="high"
-                        decoding="async"
-                        src="wp-content/uploads/banner-logo.png"
-                        width="540"
-                        height="558"
-                        class="el-image"
-                        alt="Corporate services in Asia"
-                        loading="eager"
-                      />
-                    </div>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>
         </div>
-        <div id="page#2" class="uk-inline uk-section-default uk-section">
+        <div id="page#2" class="uk-inline uk-section-primary uk-section parallax-two">
           <div
             style="background-size: auto 500px"
             data-src="/wp-content/uploads/circle-orange-right.svg"
@@ -527,27 +511,7 @@
                 class="uk-margin-large-top uk-grid tm-grid-expand uk-child-width-1-1 uk-grid-margin"
               >
                 <div class="uk-width-1-1@m">
-                  <div id="page#1" class="uk-margin uk-visible@xl">
-                    <picture>
-                      <source
-                        type="image/webp"
-                        srcset="
-                          /wp-content/themes/yootheme/cache/46/acclime_web_images_030-46cc0bd6.webp 350w,
-                          /wp-content/themes/yootheme/cache/d1/acclime_web_images_030-d11d9f39.webp 700w
-                        "
-                        sizes="(min-width: 350px) 350px"
-                      />
-                      <img
-                        decoding="async"
-                        src="wp-content/themes/yootheme/cache/76/acclime_web_images_030-76abb3bd.jpg"
-                        width="350"
-                        height="350"
-                        class="el-image uk-border-circle"
-                        alt
-                        loading="lazy"
-                      />
-                    </picture>
-                  </div>
+                  
                   <h2 class="uk-margin-small wow fadeInDown" data-wow-duration="2s" >
                     Lorem ipsum dolor sit amet,<br
                       class="uk-visible@m wow fadeInDown" data-wow-duration="2s"
@@ -555,11 +519,12 @@
                     you will need an expert<span class="">.</span>
                   </h2>
                   <div class="uk-panel uk-margin uk-width-2xlarge@m">
-                    <p class="uk-text-lead wow fadeInDown" data-wow-duration="2s">
+                    <p class="uk-text-lead uk-section-description wow fadeInDown" data-wow-duration="2s">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. In error iste inventore voluptates, ea libero ex accusantium! Ratione impedit corporis at voluptas quam dignissimos error alias vel! Ea, in? Quae.
                     </p>
                   </div>
                 </div>
+                
               </div>
               <div
                 class="uk-grid tm-grid-expand uk-child-width-1-1 uk-grid-margin"
@@ -589,7 +554,7 @@
                             Local knowledge
                           </h3>
                           <div class="el-content uk-panel uk-margin-small-top">
-                            <p>
+                            <p class="uk-section-description">
                               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus harum quibusdam voluptas assumenda debitis sed delectus eligendi similique sit autem perferendis velit laborum cumque ullam dignissimos, dolores odit sequi praesentium?
                             </p>
                           </div>
@@ -614,7 +579,7 @@
                             Hands-on attention
                           </h3>
                           <div class="el-content uk-panel uk-margin-small-top">
-                            <p>
+                            <p class="uk-section-description">
                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae doloribus quidem facere quisquam quasi cum eligendi autem libero consequuntur dicta, odit quo numquam ut nesciunt officia quis est asperiores dolorum.
                             </p>
                           </div>
@@ -639,7 +604,7 @@
                             Speed &#038; flexibility
                           </h3>
                           <div class="el-content uk-panel uk-margin-small-top">
-                            <p>
+                            <p class="uk-section-description">
                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, perferendis odit! Labore, exercitationem. Nam totam nostrum qui magnam facilis dolor quidem ipsum. Dolor ipsam consequatur maiores optio molestiae deleniti ipsa!
                             </p>
                           </div>
@@ -664,20 +629,22 @@
                             Lasting commitment
                           </h3>
                           <div class="el-content uk-panel uk-margin-small-top">
-                            <p>
+                            <p class="uk-section-description">
                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur pariatur facilis dolores, vitae, cumque vel, hic quis nemo ut ipsa aut est et. Dignissimos quibusdam dolorum quo soluta enim eum.
                             </p>
                           </div>
                         </div>
                       </div>
                     </div>
+                    <!-- Cards-->
+                    
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div id="services" class="uk-section-primary uk-section">
+        <div id="services" class="uk-section-primary uk-section uk-linear-gradient-affect-rev">
           <div class="uk-container">
             <div class="uk-grid-margin uk-container">
               <div class="uk-grid tm-grid-expand uk-child-width-1-1">
@@ -711,7 +678,7 @@
                     <div
                       class="uk-panel uk-margin uk-width-2xlarge@m uk-margin-auto uk-text-center@m wow fadeInDown" data-wow-duration="2s"
                     >
-                      <p>
+                      <p class="uk-section-description">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, voluptas pariatur cum ipsa assumenda aliquam at laborum! Amet nostrum, officia repudiandae tenetur deserunt autem fuga atque fugiat dolorem accusantium quae?
                       </p>
                     </div>
@@ -725,69 +692,93 @@
               <div class="uk-width-1-1">
                 <div
                   id="page#3"
-                  class="uk-margin uk-width-2xlarge uk-margin-auto uk-text-center"
+                  class="uk-text-center"
                 >
                   <div
-                    class="uk-grid uk-child-width-1-1 uk-child-width-1-2@s uk-grid-medium uk-grid-match"
+                    class="uk-grid uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-4@m uk-grid-match"
                     uk-grid
                   >
-                    <div class="wow slideInLeft" data-wow-duration="2s">
-                      <div
-                        class="el-item uk-card uk-card-primary uk-card-body uk-margin-remove-first-child"
-                      >
-                        <img
-                          decoding="async"
-                          src="wp-content/uploads/local.svg"
-                          width="80"
-                          height="80"
-                          class="el-image"
-                          alt
-                          loading="lazy"
-                        />
-                        <h2
-                          class="el-title uk-h3 uk-margin-small-top uk-margin-remove-bottom"
-                        >
-                        Indirect Taxation
-                          
-                        </h2>
-                        <div class="uk-margin-top">
-                          <a
-                            href="javascript:void(0)"
-                            class="el-link uk-button uk-button-primary"
-                            >    
-                            View more</a
-                          >
+                  <div class="wow slideInLeft uk-first-column" style="height: 400px;" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-name: slideInLeft;">
+                    <div class="el-item uk-card uk-card-primary uk-card-body uk-margin-remove-first-child uk-text-left eachdiv" style="
+  padding: 10px;
+">                  <div style="height:200px; width:100%;">
+                      <img decoding="async" src="./wp-content/uploads/audit.jpg" class="el-image" alt="" loading="lazy" style="
+  border-radius: 5px; height: 100%; object-fit: cover;width:100%;
+">
+</div>
+                      <h2 class="el-title uk-h4 uk-margin-small-top uk-margin-remove-bottom">
+                       Audit & Assurance
+                        
+                      </h2>
+<div class="el-content uk-panel uk-margin-small-top">
+                          <p class="uk-section-description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus harum quibusdam voluptas assumenda... 
+                          </p>
                         </div>
-                      </div>
+                      
                     </div>
-                    <div class="wow slideInRight" data-wow-duration="2s">
-                      <div
-                        class="el-item uk-card uk-card-primary uk-card-body uk-margin-remove-first-child"
-                      >
-                        <img
-                          decoding="async"
-                          src="wp-content/uploads/regional.svg"
-                          width="80"
-                          height="80"
-                          class="el-image"
-                          alt
-                          loading="lazy"
-                        />
-                        <h2
-                          class="el-title uk-h3 uk-margin-small-top uk-margin-remove-bottom"
-                        >
-                        Industrial Subsidies
-                        </h2>
-                        <div class="uk-margin-top">
-                          <a
-                            href="javascript:void(0)"
-                            uk-scroll
-                            class="el-link uk-button uk-button-primary"
-                            > View more</a
-                          >
+                  </div>
+                  
+                  <div class="wow slideInLeft uk-first-column" style="height: 400px;" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-name: slideInLeft;">
+                    <div class="el-item uk-card uk-card-primary uk-card-body uk-margin-remove-first-child uk-text-left eachdiv" style="
+  padding: 10px;
+">                  <div style="height:200px; width:100%;">
+                      <img decoding="async" src="./wp-content/uploads/tax.jpg" class="el-image" alt="" loading="lazy" style="
+  border-radius: 5px; height: 100%; object-fit: cover;width:100%;
+">
+</div>
+                      <h2 class="el-title uk-h4 uk-margin-small-top uk-margin-remove-bottom">
+                       Tax & Legal
+                        
+                      </h2>
+<div class="el-content uk-panel uk-margin-small-top">
+                          <p class="uk-section-description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus harum quibusdam voluptas assumenda... 
+                          </p>
                         </div>
-                      </div>
+                      
                     </div>
+                  </div>
+                  <div class="wow slideInRight uk-first-column" style="height: 400px;" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-name: slideInLeft;">
+                    <div class="el-item uk-card uk-card-primary uk-card-body uk-margin-remove-first-child uk-text-left eachdiv" style="
+  padding: 10px;
+">                  <div style="height:200px; width:100%;">
+                      <img decoding="async" src="./wp-content/uploads/advise.jpg" class="el-image" alt="" loading="lazy" style="
+  border-radius: 5px; height: 100%; object-fit: cover;width:100%;
+">
+</div>
+                      <h2 class="el-title uk-h4 uk-margin-small-top uk-margin-remove-bottom">
+                       Advisory
+                        
+                      </h2>
+<div class="el-content uk-panel uk-margin-small-top">
+                          <p class="uk-section-description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus harum quibusdam voluptas assumenda... 
+                          </p>
+                        </div>
+                      
+                    </div>
+                  </div>
+                  <div class="wow slideInRight uk-first-column" style="height: 400px;" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-name: slideInLeft;">
+                    <div class="el-item uk-card uk-card-primary uk-card-body uk-margin-remove-first-child uk-text-left eachdiv" style="
+  padding: 10px;
+">                  <div style="height:200px; width:100%;">
+                      <img decoding="async" src="./wp-content/uploads/enterprise.jpg" class="el-image" alt="" loading="lazy" style="
+  border-radius: 5px; height: 100%; object-fit: cover;width:100%;
+">
+</div>
+                      <h2 class="el-title uk-h4 uk-margin-small-top uk-margin-remove-bottom">
+                       Private Enterprise
+                        
+                      </h2>
+<div class="el-content uk-panel uk-margin-small-top">
+                          <p class="uk-section-description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus harum quibusdam voluptas assumenda... 
+                          </p>
+                        </div>
+                      
+                    </div>
+                  </div>
                     
                   </div>
                 </div>
@@ -821,7 +812,7 @@
           </div>
         </div>
         
-        <div id="intro" class="uk-section">
+        <div id="intro" class="uk-section-primary">
           <div class="uk-container">
             <div class="uk-grid-margin uk-container">
               <div class="uk-grid tm-grid-expand uk-child-width-1-1">
@@ -831,12 +822,12 @@
                       <img decoding="async" src="wp-content/uploads/logo.png" width="50" height="50" class="el-image" alt="" loading="lazy">
                     </div>
                     <div class="uk-panel uk-margin uk-width-2xlarge@m uk-margin-auto uk-text-center@m wow fadeInDown" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-name: fadeInDown;">
-                      <p>
+                      <p class="uk-section-description">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, voluptas pariatur cum ipsa assumenda aliquam at laborum! Amet nostrum, officia repudiandae tenetur deserunt autem fuga atque fugiat dolorem accusantium quae?
                       </p>
                     </div>
                     <div class="uk-panel uk-margin uk-width-2xlarge@m uk-margin-auto uk-text-center@m wow fadeInDown" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-name: fadeInDown;">
-                      <div class="intro-container">
+                      <div class="intro-container uk-margin-bottom">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/VCPGMjCW0is" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                       </div>
                     </div>
@@ -848,11 +839,11 @@
           </div>
         </div>
 
-        <div class="uk-section-muted uk-section">
+        <div class="uk-section-muted uk-section-primary parallax">
           <div class="uk-container">
             <div class="uk-grid tm-grid-expand uk-margin-small" uk-grid>
-              <div class="uk-grid-item-match uk-flex-middle uk-width-1-2@m">
-                <div class="uk-panel uk-width-1-1">
+              <div class="uk-grid-item-match uk-flex-middle uk-width-1-2@m uk-margin-top">
+                <div class="uk-panel uk-width-1-1 uk-margin">
                   <h6 class="uk-margin-small wow fadeInDown" data-wow-duration="2s">
                     
                     About Tradesaga
@@ -864,7 +855,7 @@
                     >
                   </h2>
                   <div class="uk-panel uk-margin wow fadeInDown" data-wow-duration="2s">
-                    <p>
+                    <p class="uk-section-description">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor rerum necessitatibus eveniet. Tempore soluta perferendis officiis quas! Tenetur, accusamus, molestias aliquid alias aspernatur laboriosam nesciunt nemo voluptates fugit voluptas vitae!
                     </p>
                   </div>
@@ -886,107 +877,91 @@
                   </div>
                 </div>
               </div>
-              <div class="uk-grid-item-match uk-flex-middle uk-width-1-2@m wow slideInRight" data-wow-duration="2s">
-                <div class="uk-panel uk-width-1-1">
-                  <div class="uk-margin uk-text-center">
-                    <picture>
+           
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="uk-section-muted uk-section-primary" >
+          <div class="uk-container">
+            <div class="uk-grid tm-grid-expand uk-margin-small  uk-margin-bottom" uk-grid>
+              <div class="uk-grid-item-match uk-flex-middle uk-width-1-2@m uk-margin-top">
+                <div class="uk-panel uk-width-1-1 uk-margin">
+                  <div class="el-item uk-grid-item-match wow fadeInDown" >
+                    <a class="uk-panel uk-margin-remove-first-child uk-link-toggle uk-display-block" href="javascript:void(0)">
+                      <picture>
+                        
+                        <img decoding="async" src="./wp-content/uploads/uptodate.jpg" style="width: 60%;" class="el-image uk-border-rounded" alt="" loading="lazy">
+                      </picture>
+                     
                       
-                      <img
-                        decoding="async"
-                        src="wp-content/uploads/about.png"
-                        width="500"
-                        height="400"
-                        class="el-image"
-                        alt
-                        loading="lazy"
-                      />
-                    </picture>
+                    </a>
+                  </div>
+                  <h2 class="uk-margin-small wow fadeInDown" data-wow-duration="2s">
+                    Stay up to date with what matters to you <span
+                      class="acc-white"
+                      >.</span
+                    >
+                  </h2>
+                  <div class="uk-panel uk-margin wow fadeInDown" data-wow-duration="2s">
+                    <p class="uk-section-description">
+                      Gain access to personalized content based on your interests by signing up today
+                    </p>
+                  </div>
+                  <div class="uk-margin">
+                    <div
+                      class="uk-flex-middle uk-grid-column-medium uk-grid-row-small uk-child-width-auto"
+                      uk-grid
+                    >
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="uk-grid-item-match uk-flex-middle uk-width-1-2@m uk-margin-top">
+                <div class="uk-panel uk-width-1-1 uk-margin">
+                  
+                  <h2 class="uk-margin-small wow fadeInUp" data-wow-duration="2s">
+                    Company Insights
+                  </h2>
+                  <div class="uk-panel uk-margin wow fadeInUp" data-wow-duration="2s">
+                    <p class="uk-section-description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor rerum necessitatibus eveniet. Tempore soluta perferendis officiis quas! Tenetur, accusamus, molestias aliquid alias aspernatur laboriosam nesciunt nemo voluptates fugit voluptas vitae!
+                    </p>
+                  </div>
+                  <div class="el-item uk-grid-item-match wow fadeInUp" >
+                    <a class="uk-panel uk-margin-remove-first-child uk-link-toggle uk-display-block" href="javascript:void(0)">
+                      <picture>
+                        
+                        <img decoding="async" src="./wp-content/uploads/insights.jpg" style="width:60%;" class="el-image uk-border-rounded" alt="" loading="lazy">
+                      </picture>
+                     
+                      
+                    </a>
+                  </div>
+                  <div class="uk-margin">
+                    <div
+                      class="uk-flex-middle uk-grid-column-medium uk-grid-row-small uk-child-width-auto"
+                      uk-grid
+                    >
+                     
+                      
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="uk-section-default uk-section">
+        <div class="uk-section-primary uk-section uk-linear-gradient-affect">
           <div class="uk-container">
             
             <div
               class="uk-grid tm-grid-expand uk-child-width-1-1 uk-grid-margin"
             >
             
-            <ul
-                      class="uk-slider-items uk-grid uk-grid-medium uk-grid-match"
-                    >
-                      <li class="uk-width-3-5 uk-width-3-5@s uk-width-1-3@m wow fadeInDown" data-wow-duration="1s">
-                        <div class="el-item uk-grid-item-match">
-                          <a
-                            class="uk-panel uk-margin-remove-first-child uk-link-toggle uk-display-block"
-                            href="javascript:void(0)"
-                          >
-                            <picture>
-                              
-                              <img
-                                decoding="async"
-                                src="https://images.pexels.com/photos/7567426/pexels-photo-7567426.jpeg?auto=compress&cs=tinysrgb&w=150 150w, https://images.pexels.com/photos/7567426/pexels-photo-7567426.jpeg?auto=compress&cs=tinysrgb&w=300 300w, https://images.pexels.com/photos/7567426/pexels-photo-7567426.jpeg?auto=compress&cs=tinysrgb&w=400 400w, https://images.pexels.com/photos/7567426/pexels-photo-7567426.jpeg?auto=compress&cs=tinysrgb&w=600 600w, https://images.pexels.com/photos/7567426/pexels-photo-7567426.jpeg?auto=compress&cs=tinysrgb&w=800 800w, https://images.pexels.com/photos/7567426/pexels-photo-7567426.jpeg?auto=compress&cs=tinysrgb&w=1200 1200w, https://images.pexels.com/photos/7567426/pexels-photo-7567426.jpeg?auto=compress&cs=tinysrgb&w=1600 1600w"
-                                width="500"
-                                height="500"
-                                class="el-image uk-border-rounded"
-                                alt
-                                loading="lazy"
-                              />
-                            </picture>
-                           
-                            
-                          </a>
-                        </div>
-                      </li>
-                      <li class="uk-width-3-5 uk-width-3-5@s uk-width-1-3@m wow fadeInDown" data-wow-duration="1s">
-                        <div class="el-item uk-grid-item-match">
-                          <a
-                            class="uk-panel uk-margin-remove-first-child uk-link-toggle uk-display-block"
-                            href="javascript:void(0)"
-                          >
-                            <picture>
-                             
-                              <img
-                                decoding="async"
-                                src="https://images.pexels.com/photos/2977513/pexels-photo-2977513.jpeg?auto=compress&cs=tinysrgb&w=600"
-                                width="500"
-                                height="500"
-                                class="el-image uk-border-rounded"
-                                alt
-                                loading="lazy"
-                              />
-                            </picture>
-                           
-                            
-                          </a>
-                        </div>
-                      </li>
-                      <li class="uk-width-3-5 uk-width-3-5@s uk-width-1-3@m wow fadeInDown" data-wow-duration="1s">
-                        <div class="el-item uk-grid-item-match">
-                          <a
-                            class="uk-panel uk-margin-remove-first-child uk-link-toggle uk-display-block"
-                            href="javascript:void(0)"
-                          >
-                            <picture>
-                              
-                              <img
-                                decoding="async"
-                                src="https://images.pexels.com/photos/4921081/pexels-photo-4921081.jpeg?auto=compress&cs=tinysrgb&w=600"
-                                width="500"
-                                height="500"
-                                class="el-image uk-border-rounded"
-                                alt
-                                loading="lazy"
-                              />
-                            </picture>
-                           
-                            
-                          </a>
-                        </div>
-                      </li>
-                      </ul>
+            
               <div class="uk-width-1-1">
                 <div class="uk-grid tm-grid-expand uk-margin-small" uk-grid>
                     <div class="uk-width-2-3@m">
@@ -997,104 +972,95 @@
                     </div>
                     
                   </div>
-                <div class="uk-margin" uk-slider="finite: 1;">
+                <div class="uk-margin">
                     
                   <div class="uk-position-relative">
                     
-                    <ul
-                      class="uk-slider-items uk-grid uk-grid-medium uk-grid-match"
-                    >
-                      <li class="uk-width-3-5 uk-width-3-5@s uk-width-1-3@m wow fadeInDown" data-wow-duration="1.5s">
-                        <div class="el-item uk-grid-item-match">
-                          <a
-                            class="uk-panel uk-margin-remove-first-child uk-link-toggle uk-display-block"
-                            href="javascript:void(0)"
-                          >
-                            
-                            <div class="el-meta uk-text-meta uk-margin-top">
-                              @ShivamVahia
+                    <div class="outerdiv">
+                      <div class="innerdiv">
+                        <!-- div1 -->
+                        <div class="div1 eachdiv">
+                          <div class="userdetails">
+                            <div class="imgbox">
+                              <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-daniel.jpg" alt="">
                             </div>
-                            <h5
-                              class="el-title uk-h5 uk-margin-small-top uk-margin-remove-bottom"
-                            >
-                            A very simple, low cost asset allocation solution using ETFs is to go for All Weather Portfolio offered by
-                            </h5>
-                          </a>
-                        </div>
-                      </li>
-                      <li class="uk-width-3-5 uk-width-3-5@s uk-width-1-3@m wow fadeInDown" data-wow-duration="1.5s">
-                        <div class="el-item uk-grid-item-match">
-                          <a
-                            class="uk-panel uk-margin-remove-first-child uk-link-toggle uk-display-block"
-                            href="javascript:void(0)"
-                          >
-                           
-                            <div class="el-meta uk-text-meta uk-margin-top">
-                              @ShivamVahia
+                            <div class="detbox">
+                              <p class="name">Daniel Clifford</p>
+                              <p class="designation">Verified Graduate</p>
                             </div>
-                            <h5
-                              class="el-title uk-h5 uk-margin-small-top uk-margin-remove-bottom"
-                            >
-                            A very simple, low cost asset allocation solution using ETFs is to go for All Weather Portfolio offered by
-                            </h5>
-                          </a>
+                          </div>
+                          <div class="review">
+                            <h4>I received a job offer mid-course, and the subjects I learned were current, if not more so, in the company I joined. I honestly feel I got every penny’s worth.</h4>
+                          <p>“ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a transition and have heard some people who had an amazing experience here. I signed up for the free intro course and found it incredibly fun! I enrolled shortly thereafter. The next 12 weeks was the best - and most grueling - time of my life. Since completing the course, I’ve successfully switched careers.”</p>
+                          </div>
                         </div>
-                      </li>
-                      <li class="uk-width-3-5 uk-width-3-5@s uk-width-1-3@m wow fadeInDown" data-wow-duration="1.5s">
-                        <div class="el-item uk-grid-item-match">
-                          <a
-                            class="uk-panel uk-margin-remove-first-child uk-link-toggle uk-display-block"
-                            href="javascript:void(0)"
-                          >
-                           
-                            <div class="el-meta uk-text-meta uk-margin-top">
-                              @ShivamVahia
+                        <!-- div2 -->
+                        <div class="div2 eachdiv">
+                          <div class="userdetails">
+                            <div class="imgbox">
+                              <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-jonathan.jpg" alt="">
                             </div>
-                            <h5
-                              class="el-title uk-h5 uk-margin-small-top uk-margin-remove-bottom"
-                            >
-                            A very simple, low cost asset allocation solution using ETFs is to go for All Weather Portfolio offered by
-                            </h5>
-                          </a>
-                        </div>
-                      </li>
-                      <li class="uk-width-3-5 uk-width-3-5@s uk-width-1-3@m wow fadeInDown" data-wow-duration="1.5s">
-                        <div class="el-item uk-grid-item-match">
-                          <a
-                            class="uk-panel uk-margin-remove-first-child uk-link-toggle uk-display-block"
-                            href="javascript:void(0)"
-                          >
-                            
-                            <div class="el-meta uk-text-meta uk-margin-top">
-                              @ShivamVahia
+                            <div class="detbox">
+                              <p class="name">Jonathan Walters</p>
+                              <p class="designation">Verified Graduate</p>
                             </div>
-                            <h5
-                              class="el-title uk-h5 uk-margin-small-top uk-margin-remove-bottom"
-                            >
-                            A very simple, low cost asset allocation solution using ETFs is to go for All Weather Portfolio offered by
-                            </h5>
-                          </a>
+                          </div>
+                          <div class="review">
+                            <h4>The team was very supportive and kept me motivated</h4>
+                          <p>“ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer for a big company. This was one of the best investments I’ve made in myself. ”</p>
+                          </div>
                         </div>
-                      </li>
-                      <li class="uk-width-3-5 uk-width-3-5@s uk-width-1-3@m">
-                        <div class="el-item uk-grid-item-match">
-                          <a
-                            class="uk-panel uk-margin-remove-first-child uk-link-toggle uk-display-block"
-                            href="javascript:void(0)"
-                          >
-                           
-                            <div class="el-meta uk-text-meta uk-margin-top">
-                              @ShivamVahia
+                        <!-- div3 -->
+                        <div class="div3 eachdiv">
+                          <div class="userdetails">
+                            <div class="imgbox">
+                              <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-kira.jpg" alt="">
                             </div>
-                            <h5
-                              class="el-title uk-h5 uk-margin-small-top uk-margin-remove-bottom"
-                            >
-                            A very simple, low cost asset allocation solution using ETFs is to go for All Weather Portfolio offered by
-                            </h5>
-                          </a>
+                            <div class="detbox">
+                              <p class="name dark">Kira Whittle</p>
+                              <p class="designation dark">Verified Graduate</p>
+                            </div>
+                          </div>
+                          <div class="review dark">
+                            <h4>Such a life-changing experience. Highly recommended!</h4>
+                            <p>“ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from professionals who can help me learn programming step by step. I was encouraged to enroll by a former student of theirs who can only say wonderful things about the program. The entire curriculum and staff did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial could ever have. In fact, I’ve often referred to it during interviews as an example of experience. ”</p>
+                          </div>
                         </div>
-                      </li>
-                    </ul>
+                        <!-- div4 -->
+                        <div class="div4 eachdiv">
+                          <div class="userdetails">
+                            <div class="imgbox">
+                              <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-jeanette.jpg" alt="">
+                            </div>
+                            <div class="detbox">
+                              <p class="name dark">Jeanette Harmon</p>
+                              <p class="designation dark">Verified Graduate</p>
+                            </div>
+                          </div>
+                          <div class="review dark">
+                            <h4>An overall wonderful and rewarding experience</h4>
+                          <p>“ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living while doing something I love. ”</p>
+                          </div>
+                        </div>
+                        <!-- div5 -->
+                        <div class="div5 eachdiv">
+                          <div class="userdetails">
+                            <div class="imgbox">
+                              <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-patrick.jpg" alt="">
+                            </div>
+                            <div class="detbox">
+                              <p class="name">Patrick Abrams</p>
+                              <p class="designation">Verified Graduate</p>
+                            </div>
+                          </div>
+                          <div class="review">
+                            <h4>Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and learning from their experiences was easy.</h4>
+                          <p>“ The staff seem genuinely concerned about my progress which I find really refreshing. The program gave me the confidence necessary to be able to go out in the world and present myself as a capable junior developer. The standard is above the rest. You will get the personal attention you need from an incredible community of smart and amazing people. ”</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                   
                     <div
                       class="uk-visible@xl uk-slidenav-container uk-position-top-right uk-position-medium"
                     >
