@@ -11416,7 +11416,7 @@ body {
 
 .parallax {
   /* The image used */
-  background-image: linear-gradient(to right, rgba(1,1,1,1) 10%, rgba(1,1,1,0.8) 51%, rgba(1,1,1,0.2) 100%),url("/wp-content/uploads/about.jpg");
+  background-image: linear-gradient(to right, rgba(1,1,1,1) 10%, rgba(1,1,1,0.8) 51%, rgba(1,1,1,0.2) 100%),url("./wp-content/uploads/about.jpg");
 
   /* Set a specific height */
   min-height: 500px;
@@ -11431,7 +11431,7 @@ body {
 
 .parallax-two {
   /* The image used */
-  background-image: linear-gradient(to right, rgba(1,1,1,1) 10%, rgba(1,1,1,0.8) 51%, rgba(1,1,1,0.2) 100%),url("/wp-content/uploads/parallaxl2.jpg");
+  background-image: linear-gradient(to right, rgba(1,1,1,1) 10%, rgba(1,1,1,0.8) 51%, rgba(1,1,1,0.2) 100%),url("./wp-content/uploads/parallaxl2.jpg");
 
   /* Set a specific height */
   min-height: 500px;
